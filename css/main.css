@@ -10,12 +10,16 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  display: inline-block;
-  padding: 1em;
-  max-width: 100%;
-  display: inline-block;
+body {
   text-align: center;
+  border-width: 0;
+  max-width: 25em;
+}
+
+div {
+  display: inline-block;
+  padding: 0;
+  margin: 1.5rem;
 }
 
 img {
@@ -24,7 +28,10 @@ img {
   width: auto;
   vertical-align: middle;
   display: inline-block;
-  padding: 0;
+}
+
+.text {
+  text-align: left;
 }
 
 h2 {
@@ -32,11 +39,17 @@ h2 {
 }
 
 p {
+  width: 100%;
   padding: 0;
   margin: 0;
 }
 
+.button {
+  text-align: center;
+}
+
 a {
+  color: #333;
   display: inline-block;
   border: medium solid #333;
   border-radius: .5em;
@@ -46,6 +59,7 @@ a {
 }
 
 a:hover {
-  background-color: #666:
+  background-color: #666;
+  border: medium solid #666;
   color: #eee9de;
 }
