@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   color: #333;
-  line height: 1.5;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -12,32 +12,32 @@ html {
 }
 
 body {
-  margin: 1.5rem 1em;
-  padding: 2em 1em;
+  margin: 0;
+  padding: 1em;
   text-align: center;
   border-width: 0;
 }
 
 div {
   max-width: 25rem;
+  width: auto;
   display: inline-block;
-  padding: 0;
+  padding: 1em;
   margin: 0;
+  vertical-align: middle;
 }
 
 img {
-  align: center;
+  width: 100%;
   max-width: 100%;
-  width: auto;
-  vertical-align: middle;
-  display: inline-block;
+  display: block;
 }
 
 .text {
   text-align: left;
 }
 
-.button {
+.btn {
   text-align: center;
 }
 
