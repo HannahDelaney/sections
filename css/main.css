@@ -21,7 +21,7 @@ body {
 div {
   max-width: 25rem;
   display: inline-block;
-  padding: 0;
+  padding: 0 .5em;
   margin: 0;
   vertical-align: middle;
 }
@@ -30,21 +30,24 @@ img {
   width: 100%;
   max-width: 100%;
   display: block;
+  margin-top: 2em;
 }
 
 .image {
-  margin: 2em 1.5em 0;
-  padding: 1em 0 2em;
+  margin: 1em;
+  padding: 0;
+}
 
 .text {
-  margin: 0 1.5em;
+  margin: 0 1em;
   padding: 0;
   text-align: left;
 }
 
 h2 {
-  padding: 0;
+  padding: .5em 0 0;
   margin: 0;
+  font-weight: bold;
 }
 
 .paragraph {
@@ -65,6 +68,7 @@ a {
 .btn {
   padding: 0;
   margin: 0;
+  font-size: 1.1em;
 }
 
 a:hover {
