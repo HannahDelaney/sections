@@ -1,10 +1,11 @@
 html {
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: bold;
   box-sizing: border-box;
   background-color: #eee9de;
   color: #333;
   line-height: 1.5;
+  font-size: 1em;
 }
 
 *, *::before, *::after {
@@ -21,8 +22,8 @@ body {
 div {
   max-width: 25rem;
   display: inline-block;
-  padding: 0 .5em;
-  margin: 0;
+  padding: 0;
+  margin: 0 .5em;
   vertical-align: middle;
 }
 
@@ -34,14 +35,15 @@ img {
 }
 
 .image {
-  margin: 1em;
-  padding: 0;
+  margin: 0;
+  padding: 1em;
 }
 
 .text {
-  margin: 0 1em;
-  padding: 0;
+  margin: 0;
+  padding: 0 1em;
   text-align: left;
+  max-width: 25rem;
 }
 
 h2 {
