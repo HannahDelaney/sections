@@ -12,17 +12,16 @@ html {
 }
 
 body {
+  padding: 0;
   margin: 0;
-  padding: 1em;
   text-align: center;
   border-width: 0;
 }
 
 div {
   max-width: 25rem;
-  width: auto;
   display: inline-block;
-  padding: 1em;
+  padding: 0;
   margin: 0;
   vertical-align: middle;
 }
@@ -33,12 +32,24 @@ img {
   display: block;
 }
 
+.image {
+  margin: 2em 1.5em 0;
+  padding: 1em 0 2em;
+
 .text {
+  margin: 0 1.5em;
+  padding: 0;
   text-align: left;
 }
 
-.btn {
-  text-align: center;
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph {
+  padding: 2em 0;
+  margin: 0;
 }
 
 a {
@@ -47,8 +58,13 @@ a {
   border: medium solid #333;
   border-radius: .5em;
   padding: .4em .75em .53em;
-  margin: 1.5rem;
+  margin: 0;
   text-decoration: none;
+}
+
+.btn {
+  padding: 0;
+  margin: 0;
 }
 
 a:hover {
